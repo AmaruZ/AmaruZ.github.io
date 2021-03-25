@@ -1,0 +1,325 @@
+@media all and (min-width: 481px) and (max-width: 1317px){
+    #bloc_page{
+        width: auto;
+    }
+
+    body{
+        width: auto;
+        margin: 0px;
+        padding-right: 0px;
+        margin-right: 0px;
+    }
+
+    nav{
+        margin-right: 20px;
+    }
+
+    #research{
+        padding-left: 20px;
+    }
+
+
+    #filter{
+        flex-flow: column wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        font-weight: 800;
+        width: auto;
+        margin-top: 20px;
+    }
+
+
+    #filter_buttons{
+        height: auto;
+        width: auto;
+        flex-flow: row wrap;
+        margin-left: 15px;
+    }
+
+    .filter_button{
+        margin-bottom: 10px;
+    }
+/* -----------------SECTION 2-------------------------------- */
+
+    #lodging{
+        flex-flow: column wrap;
+        width: auto;
+        margin: auto;
+        height: auto;
+    }
+
+
+/* -----------------SECTION 3-------------------------------- */
+
+    #activities{
+        height: auto;
+    }
+    #activities_photos{
+        height: auto;
+        flex-flow: row wrap;
+        justify-content:space-between;
+        width: auto;
+        background-position: center;
+        background-size: cover;
+        max-width: 1199px;
+        margin-left: 20px;
+        margin-right: 20px;
+    
+    }
+    
+    .activities{
+        max-height: 250px;
+        min-height: 250px;
+        width: 300px;
+        margin: 0px auto 20px auto;
+    }
+    
+    .activities_photo{
+        min-height: 200px;
+        max-height: 200px;
+    }
+    
+    .activities_text{
+        min-height: 50px;
+    }
+
+    #footer_block{
+        justify-content: space-evenly;
+    }
+
+    footer ul{
+        padding: 0px;
+        margin-block-start: 0px;
+        margin-block-end: 30px;
+        margin-right: 0;
+    }
+}
+
+
+
+
+
+@media all and (min-width: 957px) and (max-width: 1317px){
+
+/* -----------------SECTION 2-------------------------------- */
+
+.lodging_part{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #F2F2F2;
+    height: 620px;
+    width: 880px;
+    border-radius: 20px;
+    margin-block-end: 20px;
+}
+
+.lodging_part h2{
+    font-size: 1.4em;
+    font-weight: 800;
+    margin: 43px 0px 5px 55px;
+}
+
+#hotels_list {
+    height: 500px;
+    width: auto;
+    margin: auto;
+    justify-content: center;
+}
+
+#lodging aside{
+    display: flex;
+    flex-flow: column nowrap;
+    height: auto;
+    width: 880px;
+    margin: auto;
+}
+
+#haside_list{
+    flex-flow: row nowrap;
+    margin: auto;
+}
+
+.hotels_aside{
+    background-color: white;
+    box-shadow: 1px 1px 10px rgba(128,128,128,0.5);
+    border-radius: 20px;
+    margin: 15px;
+    height: 200px;
+    width: 245px;
+    padding: 5px;
+    box-sizing: border-box;
+    
+}
+
+.haside_image{
+    height: 60%;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 0px;
+}
+
+.haside_text{
+    font-size: 0.8em;
+    height: 40%;
+    width: auto;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-block-start: 0px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+aside a{
+    flex-direction: column;
+}
+
+.haside_text h3, .haside_text p{
+    margin: 0px;
+}
+
+.haside_text .stars{
+    margin-left: 0px;
+    margin-block-start: 0px;
+}
+
+/* -------------------- 3e SECTION --------------------------- */
+
+
+}
+@media all and (min-width: 481px) and (max-width:956px){
+
+    .lodging_part{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: #F2F2F2;
+        height: auto;
+        width: auto;
+        border-radius: 20px;
+        margin-block-end: 20px;
+    }
+
+    .hotels{
+        width: auto;
+        min-width: 300px;
+        min-height: 250px;
+        margin-bottom: 0px;
+    }
+
+    .hotels_image{
+        height: 70%;
+        width: 100%;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+    #hotels_list {
+        height: auto;
+    }
+    #lodging aside{
+        width: auto;
+        height: auto;
+    }
+
+    #haside_list{
+        margin: auto;
+    }
+}
+
+@media all and (min-width: 690px) and (max-width: 956px){
+
+    /* -----------------SECTION 2-------------------------------- */
+
+
+
+    #haside_list{
+        flex-flow: row wrap;
+    }
+
+    .hotels_aside{
+        background-color: white;
+        box-shadow: 1px 1px 10px rgba(128,128,128,0.5);
+        border-radius: 20px;
+        margin: 15px;
+        height: 200px;
+        width: 200px;
+        padding: 5px;
+        box-sizing: border-box;
+        
+    }
+    
+    .haside_image{
+        height: 60%;
+        width: 100%;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 0px;
+    }
+    
+    .haside_text{
+        font-size: 0.8em;
+        height: 40%;
+        width: auto;
+        padding-left: 10px;
+        padding-top: 10px;
+        margin-block-start: 0px;
+        margin-left: 0px;
+        display: flex;
+        justify-content: space-between;
+    }
+    aside a{
+        flex-direction: column;
+    }
+
+    .haside_text h3, .haside_text p{
+        margin: 0px;
+    }
+    
+    .haside_text .stars{
+        margin-left: 0px;
+        margin-block-start: 0px;
+    }
+
+}
+
+@media all and (min-width: 481px) and (max-width: 689px){
+
+    .hotels{
+        min-width: 400px;
+    }
+
+    #haside_list{
+        flex-flow: column nowrap;
+    }
+    
+    .hotels_aside{
+        height: 200px;
+        width: 400px;
+        background-color: white;
+        margin-bottom: 30px;
+        margin-left: 35px;
+        border-radius: 20px;
+        box-shadow: 1px 1px 10px rgba(128,128,128,0.3);
+        border-radius: 20px;
+        box-sizing: border-box;
+        padding: 5px 0px 5px 5px;
+    }
+    .haside_image{
+        width: 200px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+    .haside_text{
+        flex-direction: column;
+        align-items:flex-start;
+        font-size: 0.85em;
+        margin-left: 20px;
+        margin-top: 30px;
+        height: 110px;
+        width: 140px;
+    }
+
+}

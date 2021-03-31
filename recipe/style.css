@@ -1,0 +1,23 @@
+body{
+    width: 80%;
+    margin-left: auto;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 50px;
+
+}
+
+.form-group{
+    display: flex;
+    height: 100px;
+}
+
+button{
+    margin-bottom: 20px;
+    width: fit-content;
+}

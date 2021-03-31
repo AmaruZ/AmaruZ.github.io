@@ -17,6 +17,10 @@ form{
     height: 100px;
 }
 
+.form-group div{
+    margin-right: 20px;
+}
+
 button{
     margin-bottom: 20px;
     width: fit-content;

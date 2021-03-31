@@ -1,17 +1,17 @@
-*/html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select{margin:0}html{box-sizing:border-box}*,*::before,*::after{box-sizing:inherit}img,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 *{
     font-family: 'Roboto', sans-serif;
 }
 
 body{
-    width: 800px;
+    width: 1400px;
     margin-left: auto;
     margin-right: auto;
 }
 
 a{
     text-decoration: none;
+    color: black;
 }
 
 header{
@@ -26,93 +26,127 @@ header img{
 
 header h1{
     font-weight: 700;
+    padding-top: 10px;
 }
 
 nav{
     width: 350px;
 }
 
-nav ul{
+header ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-nav ul a{
+header ul a{
     color: rgb(0, 110, 255);
 }
 
-nav ul a:hover{
+header ul a:hover{
     color: black;
 }
 
 #dashboard{
     display: flex;
     width: 100%;
+    justify-content: space-evenly;
 
 }
 
 .prepa{
     display: flex;
     flex-flow: column nowrap;
+    margin-top: 20px;
 }
 
-.onglets{
-    display: flex;
+.nav-link active{
+    border-color: black;
 }
 
-.onglets p{
-    border: 1px solid black;
-    width: 150px;
-    text-align: center;
-    height: 50px;
-    padding-top: 15px;
-    margin-bottom: 0px;
-    border-bottom: 0px;
-}
 
 .affichage_prepa{
     border: 1px solid black;
-    min-width: 600px;
+    min-width: 900px;
     display: flex;
     flex-direction: column;
     align-items: center;
+
     max-height: 500px;
     overflow: hidden scroll;
+    border-bottom-left-radius: 15px;
 }
 
 .ingredients{
     display: flex;
     margin-bottom: 5px;
     margin-top: 5px;
-
-
+    border-radius: 5px;
+    width: 95%;
+    
 }
 
 .photo_ingr{
-    background-image: url("/images/poulet.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    width: 70px;
+    width: 50px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-right: 10px;
+}
+
+.ingredients:nth-of-type(1) .photo_ingr{
+    background-image: url("/images/poulet.png");
+}
+.ingredients:nth-of-type(2) .photo_ingr{
+    background-image: url("/images/ail.png");
+}
+.ingredients:nth-of-type(3) .photo_ingr{
+    background-image: url("/images/tomate.png");
+}
+.ingredients:nth-of-type(4) .photo_ingr{
+    background-image: url("/images/piment.jpg");
+}
+.ingredients:nth-of-type(5) .photo_ingr{
+    background-image: url("/images/carotte.png");
 }
 
 .detail_ingr{
     display: flex;
     flex-direction: column;
     border: 1px solid black;
+    width: 100%;
+    border-radius: 5px;
+
 }
 
 .detail_ingr p{
     margin: 0px;
 }
 
+.predict_ingr, .nbr_plats{
+    padding-left: 20px;
+}
+.descrip_ingr {
+    align-self: center;
+    font-weight: 600;
+}
+
 .manual_entries{
     display: flex;
     justify-content: flex-end;
-    align-items: center;
+    align-items: baseline;
 }
 
+.manual_entries i{
+    color: rgb(0, 150, 0);
+    margin-right: 5px;
+}
+
+.manual_entries i:hover{
+    color: rgba(0, 120, 150, 0.5);
+}
 aside{
     margin-left: 20px;
     margin-top: 20px;
@@ -120,11 +154,13 @@ aside{
 .predict_ingr{
     background-color: rgba(0,0,0,0.1);
 }
-
+span{
+    color: red;
+}
 .calendar{
     border: 1px solid black;
-    width: 200px;
-    height: 150px;
+    width: 300px;
+    height: 250px;
 
 }
 
@@ -132,13 +168,28 @@ aside{
     display: flex;
     font-size: 1.5em;
     margin-bottom: 10px;
-    justify-content: flex-end;
+    margin-left: 20px;
+    justify-content: space-between;
+    width: 150px;
 
 }
 
 .stars{
     margin-left: 5px;
+    padding-left: 2px;
     border: 1px solid black;
-    width: 120px;
+    border-radius: 2px;
+    width: 100px;
+    align-self: center;
+    color: #ffbb00;
+
 }
 
+element.style{
+    width: 500px;
+    height: 500px;
+}
+
+a.nav-link.active{
+    border-color: black;
+}

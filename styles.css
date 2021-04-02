@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 body{
     font-family: 'Raleway', sans-serif; 
     margin: 0;
@@ -37,8 +39,8 @@ nav{
 nav ul{
     display: flex;
     padding: 0;
-    margin-block-start: 0em;
-    margin-block-end: 0em;
+    margin-top: 0em;
+    margin-bottom: 0em;
     text-align: end;
     font-size: 1em;
     font-weight: 400;
@@ -60,9 +62,13 @@ nav a:hover{
     color: #0065FC;
 }
 
+nav li:hover{
+    box-shadow: inset 0px 1px 0px 0px #0065FC;
+}
+
 nav p{
-    margin-block-start: 0em;
-    margin-block-end: 0em;
+    margin-top: 0em;
+    margin-bottom: 0em;
     padding-top: 30px;
     margin-left: 15px;
 }
@@ -71,14 +77,6 @@ nav p a{
     color: #0065FC;
 }
 
-nav li:hover{
-    box-shadow: inset 0px 1px 0px 0px #0065FC;
-}
-
-nav li:nth-child(3) a{
-    color: #0065FC;
-    font-weight: 800;
-}
 
 nav li a:active{
     color: #0065FC;
@@ -137,7 +135,7 @@ h1{
 input::placeholder{
     font-family: 'Raleway', sans-serif;  
     color: black;
-    font-weight: 750;
+    font-weight: 800;
     padding-left: 10px;
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
@@ -360,7 +358,7 @@ span{
     color: #0065FC;
 }
 .grey_stars{
-    color: #868686;
+    color: #ccc9c9;
 }
 
 #afficher_plus{
@@ -535,8 +533,9 @@ aside a{
 .activities:nth-child(4) .activities_photo{
     height: 390px;
     background-image: url('images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg');
-    background-position: 49% 0%;
+    background-position: 50% 16%;
     filter: saturate(150%) brightness(107%) contrast(95%);
+    background-size: 224% 118%;
 }
 .activities:nth-child(5) .activities_photo{
     height: 140px;
@@ -578,7 +577,7 @@ footer{
 }
 
 footer h3{
-    margin-block-start: 45px;
+    margin-top: 45px;
 
 }
 
@@ -588,13 +587,13 @@ footer a{
 
 footer ul{
     padding: 0px;
-    margin-block-start: 0px;
-    margin-block-end: 30px;
+    margin-top: 0px;
+    margin-bottom: 30px;
     margin-right: 200px;
 }
 
 footer li{
-    margin-block-end: 10px;
+    margin-bottom: 10px;
 }
 
 .footer{

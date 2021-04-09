@@ -179,18 +179,23 @@
 
 
 
-@media all and (min-width: 690px) and (max-width: 1041px){
+@media all and (min-width: 693px) and (max-width: 1041px){
 
     .hotels{
-        width: 40%;
+        width: 95%;
         min-width: 300px;
         min-height: 250px;
+        height: 300px;
         margin-bottom: 0px;
+    }
+
+    .hotels_image{
+        height: 70%;
     }
 
     .hotels_aside{
         height: 300px;
-        width: 40%;
+        width: 95%;
         min-width: 310px;
         padding-right: 5px;
         margin-left: 20px;
@@ -213,7 +218,7 @@
 
 }
 
-@media all and (min-width: 481px) and (max-width: 689px){
+@media all and (min-width: 481px) and (max-width: 692px){
 
     .hotels{
         width: 80%;

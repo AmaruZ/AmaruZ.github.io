@@ -119,7 +119,7 @@
     }
 
     #haside_list{
-        width: auto;
+        width: 100%;
         display: flex;
         flex-flow: row wrap;
         margin-left: auto;

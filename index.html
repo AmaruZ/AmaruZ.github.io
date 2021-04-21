@@ -3,335 +3,147 @@
 <html lang="fr">
 
 <head>
-  <meta charset="utf-8" />
-  <link href="styles.css" rel="stylesheet" />
-  <link href="mobile.css" rel="stylesheet" media="all and (max-width: 480px)" />
-  <link href="tablette.css" rel="stylesheet" media="all and (min-width: 481px) and (max-width: 1368px)" />
-  <script src="https://kit.fontawesome.com/f345641d85.js" crossorigin="anonymous"></script>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <title>Reservia</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=yes" />
+    <meta charset="utf-8" />
+    <script src="https://kit.fontawesome.com/f345641d85.js" crossorigin="anonymous"></script>
+    <title>Ohmyfood</title>
+    <link href="style.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=yes" />
 </head>
 
 <body>
-  <div id="bloc_page">
-    <header>
-      <img src="images/logo/Reservia@3x.png" alt="logo Reservia" />
-      <nav>
-        <ul>
-          <li><a href="#lodging">Hébergements</a></li>
-          <li><a href="#activities">Activités</a></li>
-        </ul>
-        <p><a href="#"><strong>S'inscrire</strong></a></p>
-      </nav>
-    </header>
-
-    <section id="research">
-      <div id="research_title">
-        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-        <p>En plein centre ville ou en pleine nature</p>
-      </div>
-      <div id="textbox">
-        <i id="mapmarker" class="fas fa-map-marker-alt"></i>
-        <input type="text" placeholder="Marseille, France" />
-        <a href="#">
-          <div id="research_button">
-            <p>Rechercher</p>
-            <i id="search_icon" class="fas fa-search"></i>
-          </div>
-        </a>
-      </div>
-      <div id="filter">
-        <div id="filter_title">
-          <p>Filtres</p>
-        </div>
-        <div id="filter_buttons">
-          <div class="filter_button">
-            <a href="#">
-              <i class="fas fa-money-bill-wave"></i>
-              <p>Économique</p>
-            </a>
-          </div>
-          <div class="filter_button">
-            <a href="#">
-              <i class="fas fa-child"></i>
-              <p>Familial</p>
-            </a>
-          </div>
-          <div class="filter_button">
-            <a href="#">
-              <i class="fas fa-heart"></i>
-              <p>Romantique</p>
-            </a>
-          </div>
-          <div class="filter_button">
-            <a href="#">
-              <i class="fas fa-dog"></i>
-              <p>Animaux autorisés</p>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div id="infos">
-        <i class="fas fa-info"></i>
-        <p>Plus de 500 logements sont disponibles dans cette ville</p>
-      </div>
-    </section>
-
-    <section id="lodging">
-      <div class="lodging_part">
-        <h2>Hébergements à Marseille</h2>
-        <div id="hotels_list">
-          <div class="hotels">
-            <a href="#">
-              <img class="hotels_image" src="/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge de la Cannebière">
-              <div class="hotels_text">
-                <h3>Auberge la Cannebière</h3>
-                <p>Nuit à partir de <span>25€</span></p>
-                <div class="stars">
-                  <div class="blue_stars">
-                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                      class="fas fa-star"></i>
-                  </div>
-                  <div class="grey_stars">
-                    <i class="fas fa-star"></i>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="hotels">
-            <a href="#">
-              <img class="hotels_image" src="/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Hôtel du port">
-              <div class="hotels_text">
-                <h3>Hôtel du port</h3>
-                <p>Nuit à partir de 52<span>€</span></p>
-                <div class="stars">
-
-                  <div class="blue_stars">
-                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                      class="fas fa-star"></i><i class="fas fa-star"></i>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="hotels">
-            <a href="#">
-              <img class="hotels_image" src="/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Hôtel les mouettes">
-              <div class="hotels_text">
-                <h3>Hôtel Les mouettes</h3>
-                <p>Nuit à partir de 76<span>€</span></p>
-                <div class="stars">
-                  <div class="blue_stars">
-                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                      class="fas fa-star"></i>
-                  </div>
-                  <div class="grey_stars">
-                    <i class="fas fa-star"></i>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="hotels">
-            <a href="#">
-              <img class="hotels_image" src="/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Hôtel de la mer">
-              <div class="hotels_text">
-                <h3>Hôtel de la mer</h3>
-                <p>Nuit à partir de 46<span>€</span></p>
-                <div class="stars">
-                  <div class="blue_stars">
-                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                  </div>
-                  <div class="grey_stars">
-                    <i class="fas fa-star"></i><i class="fas fa-star"></i>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="hotels">
-            <a href="#">
-              <img class="hotels_image" src="/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge Le Panier">
-              <div class="hotels_text">
-                <h3>Auberge Le Panier</h3>
-                <p>Nuit à partir de <span>23€</span></p>
-                <div class="stars">
-                  <div class="blue_stars">
-                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                      class="fas fa-star"></i>
-                  </div>
-                  <div class="grey_stars">
-                    <i class="fas fa-star"></i>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="hotels">
-            <a href="#">
-              <img class="hotels_image" src="/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Hôtel chez Amina">
-              <div class="hotels_text">
-                <h3>Hôtel chez Amina</h3>
-                <p>Nuit à partir de 96<span>€</span></p>
-                <div class="stars">
-                  <div class="blue_stars">
-                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                      class="fas fa-star"></i><i class="fas fa-star"></i>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div id="afficher_plus">
-          <p>Afficher plus</p>
-        </div>
-      </div>
-
-      <aside>
-        <div id="pop_title">
-          <h2>Les plus populaires</h2>
-          <i class="fas fa-chart-line"></i>
-        </div>
-        <div id="haside_list">
-          <div class="hotels_aside">
-            <a href="#">
-              <img class="haside_image" src="/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Hôtel Le soleil du matin">
-              <div class="haside_text">
-                <h3>Hôtel Le soleil du matin</h3>
-                <p>Nuit à partir de 128<span>€</span></p>
-                <div class="stars">
-                  <div class="blue_stars">
-                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                      class="fas fa-star"></i><i class="fas fa-star"></i>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="hotels_aside">
-            <a href="#">
-              <img class="haside_image" src="/images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Au coeur de l'eau Chambres d'hôtes">
-              <div class="haside_text">
-                <h3>Au coeur de l'eau Chambres d'hôtes</h3>
-                <p>Nuit à partir de 71<span>€</span></p>
-                <div class="stars">
-                  <div class="blue_stars">
-                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                      class="fas fa-star"></i>
-                  </div>
-                  <div class="grey_stars">
-                    <i class="fas fa-star"></i>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="hotels_aside">
-            <a href="#">
-              <img class="haside_image" src="/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Hôtel Tout bleu et Blanc">
-              <div class="haside_text">
-                <h3>Hôtel Tout bleu et Blanc</h3>
-                <p>Nuit à partir de 68<span>€</span></p>
-                <div class="stars">
-                  <div class="blue_stars">
-                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                      class="fas fa-star"></i>
-                  </div>
-                  <div class="grey_stars">
-                    <i class="fas fa-star"></i>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-      </aside>
-    </section>
-
-    <section id="activities">
-      <h2>Activités à Marseille</h2>
-      <div id="activities_photos">
-        <div class="activities">
-          <a href="#">
-            <img class="activities_photo" src="/images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux Port">
-            <div class="activities_text">
-              <h3>Vieux Port</h3>
-            </div>
-          </a>
-        </div>
-        <div class="activities">
-          <a href="#">
-            <img class="activities_photo" src="/images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort de Pomègues">
-            <div class="activities_text">
-              <h3>Fort de Pomègues</h3>
-            </div>
-          </a>
-        </div>
-        <div class="activities">
-          <a href="#">
-            <img class="activities_photo" src="/images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Îles du Frioul">
-            <div class="activities_text">
-              <h3>Îles du Frioul</h3>
-            </div>
-          </a>
-        </div>
-        <div class="activities">
-          <a href="#">
-            <img class="activities_photo" src="/images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Parc National des Calanques">
-            <div class="activities_text">
-              <h3>Parc National des Calanques</h3>
-            </div>
-          </a>
-        </div>
-        <div class="activities">
-          <a href="#">
-            <img class="activities_photo" src="/images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Notre-Dame-de-la-Garde">
-            <div class="activities_text">
-              <h3>Notre-Dame-de-la-Garde</h3>
-            </div>
-          </a>
-        </div>
-        <div class="activities">
-          <a href="#">
-            <img class="activities_photo" src="/images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Parc Longchamp">
-            <div class="activities_text">
-              <h3>Parc Longchamp</h3>
-            </div>
-          </a>
-        </div>
-      </div>
-    </section>
-  </div>
-
-  <footer>
-    <div id="footer_block">
-      <div class="footer">
-        <h3>A propos</h3>
-        <ul>
-          <li><a href="#">Fonctionnement du site</a></li>
-          <li><a href="#">Conditions générales de vente</a></li>
-          <li><a href="#">Données et confidentialité</a></li>
-        </ul>
-      </div>
-      <div class="footer">
-        <h3>Nos hébergements</h3>
-        <ul>
-          <li><a href="#">Charte qualité</a></li>
-          <li><a href="#">Soumettre votre hôtel</a></li>
-        </ul>
-      </div>
-      <div class="footer">
-        <h3>Assistance</h3>
-        <ul>
-          <li><a href="#">Centre d'aide</a></li>
-          <li><a href="#">Nous contacter</a></li>
-        </ul>
-      </div>
+    <div class="loader">
     </div>
-  </footer>
+    <div class="content">
+        <header>
+            <img src="/images/logo/ohmyfood.png" title="logo" class="logo">
+        </header>
+
+        <section class="title-container">
+            <div class="localisation">
+                <i class="fas fa-map-marker-alt"></i>
+                <input type="text" placeholder="Paris, Belleville" class="localisation__input">
+            </div>
+            <div class="explore">
+                <div class="explore__title">
+                    <h2>Réservez le menu qui vous convient</h2>
+                </div>
+                <div class="explore__text">Découvrez des restaurants d'exception, séléctionnés par nos soins.</div>
+                <a href="#Restaurants" class="btn">Explorer nos restaurants</a>
+            </div>
+        </section>
+
+        <section class="fonction-container">
+            <div class="fonction-container__title">
+                <h2>Fonctionnement</h2>
+            </div>
+            <div class="fonction-container__list">
+                <div class="fonction">
+                    <div class="fonction__number">1</div>
+                    <div class="fonction__icon"><i class="fas fa-mobile-alt"></i></div>
+                    <div class="fonction__text">Choisissez un restaurant</div>
+                </div>
+                <div class="fonction">
+                    <div class="fonction__number">2</div>
+                    <div class="fonction__icon"><i class="fas fa-list-ul"></i></div>
+                    <div class="fonction__text">Composez votre menu</div>
+                </div>
+                <div class="fonction">
+                    <div class="fonction__number">3</div>
+                    <div class="fonction__icon"><i class="fas fa-store"></i></div>
+                    <div class="fonction__text">Dégustez au restaurant</div>
+                </div>
+            </div>
+        </section>
+        <section class="restaurants-container" id="Restaurants">
+            <div class="restaurants-container__title">
+                <h2>Restaurants</h2>
+            </div>
+            <div class="restaurants-container__list">
+                <a href="restaurant_menilmontant.html" class="restaurant">
+                    <div class="restaurant__visu">
+                        <img src="images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" class="restaurant__photo menilmontant" alt="La palette du gout">
+                        <div class="restaurant__photo--new">Nouveau</div>
+                    </div>
+                    <div class="restaurant__text">
+                        <div class="restaurant__name">
+                            <div class="restaurant__photo"></div>
+                            <div class="restaurant__title">La palette du goût</div>
+                            <div class="restaurant__localisation">Ménilmontant</div>
+                        </div>
+                        <div class="restaurant__heart">
+                            <i class="far fa-heart heart__visible"></i>
+                            <i class="fas fa-heart heart__animated"></i>
+                        </div>
+                    </div>
+                </a>
+                <a href="restaurant_charonne.html" class="restaurant">
+                    <div class="restaurant__visu">
+                    <img src="images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" class="restaurant__photo charonne" alt="La note enchantée">
+                    <div class="restaurant__photo--new">Nouveau</div>
+                </div>
+                    
+                    <div class="restaurant__text">
+                        <div class="restaurant__name">
+                            <div class="restaurant__title">La note enchantée</div>
+                            <div class="restaurant__localisation">Charonne</div>
+                        </div>
+                        <div class="restaurant__heart">
+                            <i class="far fa-heart heart__visible"></i>
+                            <i class="fas fa-heart heart__animated"></i>
+                        </div>
+                        
+                    </div>
+
+                </a>
+                <a href="restaurant_citerouge.html" class="restaurant">
+                    <div class="restaurant__visu">
+                    <img src="images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" class="restaurant__photo cite-rouge" alt="A la française">
+                </div>
+                    <div class="restaurant__text">
+                        <div class="restaurant__name">
+                            <div class="restaurant__title">À la française</div>
+                            <div class="restaurant__localisation">Cité Rouge</div>
+                        </div>
+                        <div class="restaurant__heart">
+                            <i class="far fa-heart heart__visible"></i>
+                            <i class="fas fa-heart heart__animated"></i>
+                        </div>
+                    </div>
+                </a>
+                <a href="restaurant_foliemericourt.html" class="restaurant">
+                    <div class="restaurant__visu">
+                    <img src="images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" class="restaurant__photo folie-mericourt" alt="Le délice des sens">
+                </div>
+                    <div class="restaurant__text">
+                        <div class="restaurant__name">
+                            <div class="restaurant__title">Le délice des sens</div>
+                            <div class="restaurant__localisation">Folie-Méricourt</div>
+                        </div>
+                        <div class="restaurant__heart">
+                            <i class="far fa-heart heart__visible"></i>
+                            <i class="fas fa-heart heart__animated"></i>
+                            
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+        </section>
+
+        <footer>
+            <div class="footer-container">
+                <div class="footer-container__logo">ohmyfood</div>
+                <div class="footer-container__list">
+                    <ul>
+                        <li><a href="#"><i class="fas fa-utensils"></i>Proposer un restaurant</a></li>
+                        <li><a href="#"><i class="fas fa-hands-helping"></i>Devenir partenaire</a></li>
+                        <li><a href="#">Mentions légales</a></li>
+                        <li><a href="mailto:a.zirouel@gmail.com">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
 </body>
 
 </html>

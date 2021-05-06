@@ -34,7 +34,7 @@
 }
 @keyframes show-dishes {
   0% {
-    transform: translateY(50px);
+    transform: translateY(30px);
     opacity: 0;
   }
   100% {
@@ -157,6 +157,11 @@ ul {
 }
 :hover > .fonction__icon, :active > .fonction__icon {
   color: #9356DC;
+}
+@media screen and (min-width: 680px) {
+  .fonction__icon {
+    margin-left: 20%;
+  }
 }
 .fonction__text {
   font-weight: 500;
@@ -295,7 +300,7 @@ footer {
 @media screen and (min-width: 1366px) {
   .fonction-container__list {
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 98%;
     margin-left: auto;
     margin-right: auto;
@@ -547,34 +552,37 @@ footer {
   border-radius: 12px;
   margin-bottom: 12px;
   overflow: hidden;
-  animation: show-dishes 1s;
+  animation: show-dishes 1s both;
+}
+.plat--1 {
+  animation-delay: 0ms;
 }
 .plat--2 {
-  animation-delay: 200ms;
+  animation-delay: 150ms;
 }
 .plat--3 {
   animation-delay: 300ms;
 }
 .plat--4 {
-  animation-delay: 400ms;
+  animation-delay: 450ms;
 }
 .plat--5 {
-  animation-delay: 500ms;
-}
-.plat--6 {
   animation-delay: 600ms;
 }
+.plat--6 {
+  animation-delay: 750ms;
+}
 .plat--7 {
-  animation-delay: 700ms;
-}
-.plat--8 {
-  animation-delay: 800ms;
-}
-.plat--9 {
   animation-delay: 900ms;
 }
+.plat--8 {
+  animation-delay: 1050ms;
+}
+.plat--9 {
+  animation-delay: 1200ms;
+}
 .plat--10 {
-  animation-delay: 1000ms;
+  animation-delay: 1350ms;
 }
 @media screen and (min-width: 1024px) {
   .plat {

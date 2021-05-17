@@ -1,0 +1,20 @@
+{
+  "name": "amarzirouel_3_315032021",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch main.scss:style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmaruZ/AmarZirouel_3_315032021.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmaruZ/AmarZirouel_3_315032021/issues"
+  },
+  "homepage": "https://github.com/AmaruZ/AmarZirouel_3_315032021#readme"
+}
